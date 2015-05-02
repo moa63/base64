@@ -17,7 +17,7 @@ const static char B64_MODE_DECODE = 1;
 void Encode()
   {
   char c;
-  std::vector<char> v(4);
+  std::vector<char> v(3);
 
   while ( std::cin.get(c) )
     {
@@ -34,7 +34,7 @@ void Encode()
 void Decode()
   {
   char c;
-  std::vector<char> v;
+  std::vector<char> v(4);
 
   while ( std::cin.get(c) )
     {
