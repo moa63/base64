@@ -1,3 +1,6 @@
+#ifndef __mm__base64__
+#define __mm__base64__
+
 //
 //  base64.h
 //
@@ -5,9 +8,6 @@
 //  Copyright (c) 2015 Manfred Morgner. All rights reserved.
 //
 //  http://en.wikibooks.org/wiki/Algorithm_Implementation/Miscellaneous/Base64#C.2B.2B_2
-
-#ifndef __mm__base64__
-#define __mm__base64__
 
 #include <string>
 
@@ -117,5 +117,6 @@ template<typename T> std::vector<char> base64Decode(const T& input)
     return decodedBytes;
 } // std::vector<char> base64Decode(const std::string& input)
 
-#endif /* defined(__mm__base64__) */
+/* defined(__mm__base64__) */
+#endif
 
